@@ -128,6 +128,14 @@ print(store.title)
 print(len(offers))
 ```
 
+## Inspiration
+
+Inspiriert durch [`torbenpfohl/rewe-discounts`](https://github.com/torbenpfohl/rewe-discounts).
+
+Ich wollte eine kleine Automation bauen, die mir einen Überblick über aktuelle Angebote aus verschiedenen Märkten in meiner Nähe gibt, ohne dafür mehrere unterschiedliche Apps öffnen zu müssen.
+
+Weitere kleine API-Wrapper für andere Märkte, zum Beispiel Edeka, sind geplant beziehungsweise existieren bereits als PoC.
+
 ## Hinweise
 
 Das Projekt ist inoffiziell und kann jederzeit nicht mehr funktionieren, wenn Kaufland die App-API oder deren Antwortformat ändert.
