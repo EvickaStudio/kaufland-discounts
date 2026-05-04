@@ -2,9 +2,9 @@
 
 Kleiner, inoffizieller Python-Client für aktuelle Angebote aus physischen Kaufland-Märkten.
 
-Das Projekt kann als CLI genutzt werden, oder direkt als kleiner API-Wrapper in Python-Code. Es geht hier ausdrücklich um Kaufland-Filialen und deren Angebote, nicht um den Kaufland Online-Marktplatz.
+Das Projekt kann als CLI genutzt werden oder direkt als kleiner API-Wrapper in Python-Code. Es geht hier ausdrücklich um Kaufland-Filialen und deren Angebote, nicht um den Kaufland Online-Marktplatz.
 
-> Ohne Authentifizierung funktioniert nichts, die Credentials werden in diesem Repo nicht veröffentlicht!
+> Dieses Repo enthält keine Zugangsdaten. Benötigte Werte müssen lokal über `.env` bereitgestellt werden.
 
 ## Was macht das Tool?
 
@@ -87,6 +87,14 @@ Erstelle/Kopiere zuerst die `.env` und füge die benötigten Werte ein:
 cp .env.example .env
 ```
 
+## Referenzen
+
+Die Implementierung orientiert sich an öffentlich verfügbaren live Client- und Testreferenzen rund um die Kaufland-App-API, unter anderem an einer archivierten SchwarzIT-Referenz:
+
+- [SchwarzIT/iosklbasekit – REST-Testreferenz](https://github.com/SchwarzIT/iosklbasekit/blob/ecee80d2d7f803cbde49a038617a56053752a93e/KLBaseKitTests/REST/TestTests.swift#L28) <!--- Working live Kaufland api test -->
+
+Dieses Repository enthält bewusst keine eingebetteten Auth-Werte.
+
 ## CLI-Nutzung
 
 Einen Markt suchen und Angebote anzeigen:
@@ -123,7 +131,7 @@ print(len(offers))
 ## Hinweise
 
 Das Projekt ist inoffiziell und kann jederzeit nicht mehr funktionieren, wenn Kaufland die App-API oder deren Antwortformat ändert.
-Bitte auch nicht aggressiv pollen oder große Mengen Requests automatisiert abfeuern. Das Tool ist für kleine lokale Abfragen gedacht.
+Bitte keine großen Mengen Requests automatisiert abfeuern. Das Tool ist für kleine lokale Abfragen gedacht.
 
 ## Lizenz
 
