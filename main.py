@@ -207,11 +207,34 @@ def print_store(store: Store) -> None:
         print("Closed: " + ", ".join(closed_days))
 
 
+def _ellipsize(value: str | None, width: int) -> str:
+    text = value or "-"
+    if len(text) <= width:
+        return text
+    if width <= 3:
+        return "." * width
+    return text[: width - 3] + "..."
+
+
 def print_offers(offers: list[Offer], *, limit: int) -> None:
     print(f"Offers: {len(offers)}")
 
     for offer in offers[:limit]:
-        print(f"  {offer.name} | {offer.price} | {offer.period}")
+        name = _ellipsize(f"{offer.name}:", 10)
+        subtitle = _ellipsize(offer.subtitle, 36)
+        price = _ellipsize(offer.price, 8)
+        base_price = _ellipsize(offer.base_price, 18)
+        loyalty_price = _ellipsize(offer.loyalty_price, 8)
+        period = _ellipsize(offer.period, 23)
+
+        print(
+            f"  {name:<13} "
+            f"{subtitle:<36} | "
+            f"{price:>8} | "
+            f"{base_price:<18} | "
+            f"loyalty {loyalty_price:>8} | "
+            f"{period}"
+        )
 
 
 def parse_args() -> argparse.Namespace:

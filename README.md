@@ -24,11 +24,20 @@ Kaufland Frankfurt/Main-Griesheim (DE1483)
 Mainzer Landstraße 683, 65933 Frankfurt am Main, DE
 50.0998058, 8.5872564
 069/5800263-0
+MobilePayment, LoyaltyProgram, LoyaltyPointsProgram, LoyaltyCoupons, AdBanner, PartnerBenefits, KScanDZ, Xtra
 Open: Mon, Tue, Wed, Thu, Fri, Sat
 Closed: Sun
 Offers: 56
-  MÜLLER | 0.88 | 2026-04-30 – 2026-05-06
-  ZOTT | 2.22 | 2026-04-30 – 2026-05-06
+  MÜLLER:       Kefir oder Ayran                     |     0.88 | (1 kg = 1.76)      | loyalty    0.79* | 2026-04-30 – 2026-05-06
+  ZOTT:         Zottarella Classic-Rolle             |     2.22 | Abtropfgewicht ... | loyalty    1.99* | 2026-04-30 – 2026-05-06
+  NESTLÉ ...    Eisgenuss                            |     1.99 | (1 l = 2.37 - 7... | loyalty    1.79* | 2026-04-30 – 2026-05-06
+  DOVGAN:       Plombir Eis                          |     2.79 | (1 l = 3.58 - 8... | loyalty    2.49* | 2026-04-30 – 2026-05-06
+  YOUCOOK:      Fertiggericht                        |     3.79 | (1 kg = 9.03)      | loyalty    3.49* | 2026-04-30 – 2026-05-06
+  POPP:         Feinkostsalat                        |     1.89 | (1 kg = 4.73)      | loyalty    1.69* | 2026-04-30 – 2026-05-06
+  MILKA:        Pralinés oder Hauchzarte Herzen      |     1.69 | (1 kg = 13.00 -... | loyalty    1.49* | 2026-04-30 – 2026-05-09
+  LAMBERTZ:     Coco-Fleur, Balena oder Divina       |     1.49 | (1 kg = 11.92 -... | loyalty    1.29* | 2026-04-30 – 2026-05-09
+  SÖHNLEIN:     Brillant Sekt oder weinhaltiges G... |     2.69 | (1 l = 3.59)       | loyalty    2.49* | 2026-04-30 – 2026-05-09
+  BECK'S:       Pils oder Gold                       |    10.99 | (1 l = 1.10)       | loyalty    9.99* | 2026-04-30 – 2026-05-06
 ```
 
 ## Scope
