@@ -4,6 +4,8 @@ Kleiner, inoffizieller Python-Client für aktuelle Angebote aus physischen Kaufl
 
 Das Projekt kann als CLI genutzt werden, oder direkt als kleiner API-Wrapper in Python-Code. Es geht hier ausdrücklich um Kaufland-Filialen und deren Angebote, nicht um den Kaufland Online-Marktplatz.
 
+> Ohne Authentifizierung funktioniert nichts, die Credentials werden in diesem Repo nicht veröffentlicht!
+
 ## Was macht das Tool?
 
 - Kaufland-Märkte suchen
